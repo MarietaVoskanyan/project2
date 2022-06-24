@@ -4,7 +4,8 @@ def is_ideal(num:int):
     while i <= num // 2:
         if num % i == 0:
             sum += i
-    return true if sum == num else false
+        i += 1
+    return True if sum == num else False
         
 n = int(input("insert number: "))
 print(is_ideal(n))
