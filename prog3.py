@@ -14,5 +14,5 @@ print(is_ideal(n))
 def is_ideal(n):
         return sum([i for i in range(1, n) if n % i == 0]) == n
 
-m = int(input("is_ideal: "))
+m = int(input("insert number: "))
 print(is_ideal(m))
